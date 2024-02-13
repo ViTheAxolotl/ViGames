@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- CSS -->
+    <link href="../../css/bootstrap.min.css" rel="stylesheet" />
+    <link href = "../../css/myStyle.css" rel = "stylesheet" />
+    <link rel="shortcut icon" href="../../images/JavaScriptFavicon.png">
+
+    <title>Battleship</title>
+  </head>
+  
+  <body>
+    <nav class="navbar navbar-expand-lg bg-dark navbar-primary"> 
+      <script src="../../js/Navbar.js" class="jsaFolder"></script>
+    </nav>
+
+    <div class="container">
+      <div class="row align-items-center">
+        <div id = "header" class = "bg-AHC-blue color-AHC-yellow col-12">
+          <h1>Week 8 JavaScript</h1><br> 
+          <img src = "../../images/boat.png" 
+          alt = "Pic of a boat" 
+          title = "Pic of a boat"
+          width = "80" height = "80" />
+          <h4>By Levi Snyder</h4>
+        </div>
+
+        <div id = "javaScript" class = "bg-AHC-black color-AHC-yellow battleship col-12">
+          <h3 class = "color-AHC-blue bg-AHC-red">Battleship</h3>
+          <div id = "messageArea"></div>
+          <form>
+            <input type="button" id="reset" value="Reset">
+          </form>
+          <table>
+            <script src="generateTable.js"></script>
+          </table>
+          <form id = "fireForm">
+            <input type = "text" id = "guessInput" placeholder="A0"/>
+            <input type="button" id="fireButton" value="Fire!">
+          </form>
+        
+          <img src = "../../images/toggleTouch.png" 
+          alt = "Toggle Touch Button" 
+          title = "Toggle Touch Button"
+          width = "200" height = "80" 
+          class = "bg-AHC-red"
+          id = "toggleTouchButton"/>
+        </div>
+
+        <div id = "footer" class = "bg-AHC-blue color-AHC-yellow col-12">
+            <h6>Copyright &copy; Levi Snyder 2022</h6>
+        </div>
+      </div>
+	  </div>
+	  
+     <!-- Bootstrap JavaScript Components-LOAD LAST -->
+     <script src="../../js/bootstrap.bundle.min.js"></script>
+     <script src="battleship.js"></script>
+  </body>
+</html>

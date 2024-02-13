@@ -1,0 +1,361 @@
+body
+{
+    background: fixed black url(../images/background.jpg);
+}
+
+.bg-AHC-blue
+{
+    background-color: #00007D;
+}
+
+.color-AHC-blue
+{
+    color: #00007D;
+}
+
+.bg-AHC-yellow
+{
+    background-color: #A48126;
+}
+
+.color-AHC-yellow
+{
+    color: #A48126;
+}
+
+.bg-AHC-red
+{
+    background-color: #750100;
+}
+
+.color-AHC-red
+{
+    color: #750100;
+}
+
+.bg-AHC-black
+{
+    background-color: #000000;
+}
+
+.color-AHC-black
+{
+    color: #000000;
+}
+
+.bg-AHC-white
+{
+    background-color: #FFFFFF;
+}
+
+.color-AHC-white
+{
+    color: #FFFFFF;
+}
+
+.bg-AHC-green
+{
+    background-color: rgb(83, 175, 19);
+}
+
+#moveUpABit
+{
+    margin-top: -15px;
+}
+
+#info, #listOfGames
+{
+    padding: 0;
+    margin: 20px 10px 0px 0px;
+}
+
+#info img
+{
+    margin-bottom: 10px;
+    text-align: center;
+    width: 200px;
+    height: 200px;
+}
+
+#info h1, #info p, #main h1, #main p, #gameDescription h3, #listOfGames h3, #javaScript 
+{
+    text-align: center;
+}
+
+#info .carousel-item p
+{
+    text-align: left;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.carousel-item
+{
+    padding: 5px;
+}
+
+.carousel-inner img 
+{
+    margin: auto;
+}
+
+#header
+{
+    text-align: center;
+    padding-bottom: 10px;
+    margin-top: 20px;
+}
+
+#main, #gameDescription
+{
+    padding: 0;
+    margin: 20px 0px 0px 10px;
+}
+
+#javaScript
+{
+    margin: 20px 0px 0px 0px;
+}
+
+#main p
+{
+    border-bottom: #750100 solid;
+    padding-bottom: 5px;
+}
+
+#listOfGames li, #gameDescription li, #footer li
+{
+    list-style-image: url(../images/heart.png);
+}
+
+#header h1
+{
+    margin-bottom: 0px;
+}
+
+#footer
+{
+    text-align: center;
+    padding-bottom: 10px;
+    margin-top: 20px;
+}
+
+#footer li
+{
+    text-align: left;
+}
+
+#footer a:hover, #listOfGames a:hover
+{
+    color: #750100;
+}
+
+#listOfGames, #gameDescription, p, #javaScript
+{
+    padding: 5px; 
+}
+
+#game
+{
+    margin: 20px 0px 0px 0px;
+    padding: 5px 0px 0px 75px;
+    text-align: center;
+}
+
+iframe
+{
+	width: 1100px;
+	height: 625px;
+}
+
+.row, .container, #game, iframe
+{
+    overflow: hidden !important;
+}
+
+#header img
+{
+    margin-top: -25px;
+}
+
+.extraPadding
+{
+    padding-bottom: 5px;
+}
+
+#main img
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+}
+
+#main
+{
+    padding: 5px;
+}
+
+.navbar-primary .navbar-toggler-icon 
+{
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(164,129,38, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+  
+.navbar-primary .navbar-toggler 
+{
+    border-color: rgb(164,129,38); 
+} 
+
+#main, #header, #info, #footer, .webgl-content, .controls, #listOfGames, #gameDescription, #game, #javaScript
+{
+    border: #555555 4px solid;
+}
+
+.battleship
+{
+    background: black;
+    margin: auto;
+}
+
+div#messageArea
+{
+    top: 0px;
+    left: 0px;
+    background-color: rgb(83, 175, 19);
+    color: black;
+    margin-bottom: 10px;
+}
+
+.battleship table
+{
+    margin-left: auto;
+    margin-right: auto;
+    left: 173px;
+    top: 98px;
+    border-spacing: 0px;
+    background-color: rgb(57, 87, 45);
+}
+
+.battleship td
+{
+    width: 94px;
+    height: 94px;
+    border-width: 5px;
+    border-color: rgb(83, 175, 19);
+}
+
+.battleship .number
+{
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 0px;
+    background-color: black;
+}
+
+.battleship .empty
+{
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 0px;
+    border-top: 0px;
+    background-color: black;
+}
+
+.battleship .letter
+{
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 0px;
+    border-top: 0px;
+    background-color: black;
+}
+
+.battleship form
+{
+    margin-top: 10px;      
+    margin-bottom: 10px;      
+    bottom:0;                         
+    right:0;
+    padding: 15px;
+    background-color: rgb(83, 175, 19);
+}
+
+.battleship form input
+{
+    background-color: rgb(152, 207, 113);
+    border-color: rgb(83, 175, 19);
+    font-size: 1em;
+}
+
+td p
+{
+    font-size: 25px;
+    color: rgb(83, 175, 19);
+}
+
+.battleship .hit
+{
+    background: url("../images/boat.png") no-repeat center center;
+}
+
+.battleship .miss
+{
+    background: url("../images/miss.png") no-repeat center center;
+}
+
+.battleship .visible
+{
+    visibility: visible;
+}
+
+.battleship .invisible
+{
+    visibility: hidden;
+}
+
+#imageGame img
+{
+    margin: 10px;
+}
+
+@media (max-width: 1399px) {
+    .col-md-6 
+    {
+        width: 49%;
+    }
+  }
+
+@media (max-width: 1199px) {
+    .col-md-6 
+    {
+        width: 48.9%;
+    }
+  }
+
+@media (max-width: 991px) {
+    .col-md-6 
+    {
+        width: 48.6%;
+    }
+  }
+
+  @media (max-width: 767px) {
+    .col-md-6 
+    {
+        width: 47.9%;
+    }
+  }
+
+@media (max-width: 574px) {
+    .col-md-6 
+    {
+        width: 100%;
+    }
+  }
+
+  @media (max-width: 574px) {
+    #main, #gameDescription
+    {
+        margin-left: 0px;
+    }
+  }

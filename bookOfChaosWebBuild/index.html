@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Book Of Chaos Dungeon</title>
+    <link href="../css/bootstrap.min.css" rel="stylesheet" />
+    <link href = "../css/myStyle.css" rel = "stylesheet" />
+    <link rel="shortcut icon" href="../images/BookOfChaosFavicon.png">
+    <link rel="stylesheet" href="TemplateData/style.css">
+    <script src="TemplateData/UnityProgress.js"></script>
+    <script src="Build/UnityLoader.js"></script>
+    <script>
+      var unityInstance = UnityLoader.instantiate("unityContainer", "Build/BookOfChaos.json", {onProgress: UnityProgress});
+    </script>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg bg-dark navbar-primary"> 
+      <script src="../js/Navbar.js" class="bocFolder"></script>
+    </nav>
+
+    <div class="webgl-content">
+      <div id = "unityContainer" style="width: 1100px; height: 700px;"></div>
+        <div class="footer">
+          <div class="webgl-logo"></div>
+          <div class="fullscreen" onclick="unityInstance.SetFullscreen(1)"></div>
+          <div class="title">Book of Chaos Dungeon</div>
+          <h6 class = "center">Copyright &copy; Levi Snyder 2022</h6>
+          <h6 class = "center">(Don't look at trees, it will reduce some lag)</h6>
+          <br>
+          <div class = "controls">
+            <h3 class = "center">Controls</h3>
+              <ul>
+                  <li>w - Walk forwards</li>
+                  <li>a - Walk left</li>
+                  <li>d - Walk right</li>
+                  <li>s - Walk backwards</li>
+                  <li>Touch / Click - Interacts with objects</li>
+                  <li>Space - Jumps</li>
+                  <li>Esc - Gives mouse back</li>
+                  <li>r - Restarts room</li>
+              </ul>
+          </div>
+        </div>
+    </div>
+
+    <script src="../js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
